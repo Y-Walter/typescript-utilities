@@ -1,2 +1,2 @@
-export const hello = 'hello';
-export * from '@/utils';
+export const hello = "hello";
+export * from "@/utils";

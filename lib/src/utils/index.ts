@@ -1,3 +1,1 @@
-export {
-  externalHello,
-} from '@/utils/external';
+export { externalHello } from "@/utils/external";
