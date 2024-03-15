@@ -1,1 +1,1 @@
-export const externalHello = "こんにちは";
+export const externalHello = 'こんにちは';

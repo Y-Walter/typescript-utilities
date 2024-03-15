@@ -1,0 +1,10 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "prettier.enable": true,
+  "prettier.semi": true,
+}
