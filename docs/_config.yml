@@ -1,15 +1,8 @@
-# https://github.com/pages-themes/cayman
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme
+https://github.com/zendesk/jekyll-theme-zendesk-garden
+remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.3.0
 
-title: typescript-utilities by Y-Walter
-description: Utilities for TypeScript in Personal Use
+sidebar:
+  - introduction
+  - get-started
 
-docs_list_title: typescript-utilities by Y-Walter
-docs:
-  - title: Introduction
-    url: index.md
-  
-  - title: Get Started
-    url: getStarted/index.md
+search_enabled: true
