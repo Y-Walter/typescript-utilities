@@ -7,7 +7,5 @@
   },
   "editor.formatOnSave": true,
   "prettier.enable": true,
-  // "prettier.endOfLine": "lf",
-  // "prettier.singleQuote": false,
   "prettier.configPath": ".prettierrc"
 }
