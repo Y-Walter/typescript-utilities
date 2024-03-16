@@ -1,8 +1,4 @@
 changelog:
-  exclude:
-    labels:
-    - documentation
-
   categories:
     - title: Breaking Changes 📰
       labels:
@@ -19,7 +15,3 @@ changelog:
     - title: Dependencies 📚
       labels:
         - dependencies
-    
-    - title: Others
-      labels:
-        - "*"
