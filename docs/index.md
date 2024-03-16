@@ -1,9 +1,3 @@
----
-id: introduction
-title: Introduction for @y-walter/typescript=s
-sidebar_label: Introduction
----
-
 ## Introduction
 <!-- japanese
 `@y-walter/typescript-utils`は、TypeScriptで開発を行う際に便利に活用できるプラクティスをライブラリの形式でまとめたものである。
