@@ -1,4 +1,4 @@
-name: Lint Lib
+name: Check Lib
 
 on:
   push:
