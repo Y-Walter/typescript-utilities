@@ -1,9 +1,6 @@
 https://github.com/zendesk/jekyll-theme-zendesk-garden
 remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.3.0
 
-plugins:
-  - jekyll-remote-theme
-
 sidebar:
   - introduction
   - get-started
