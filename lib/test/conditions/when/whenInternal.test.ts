@@ -1,6 +1,6 @@
 
-import { WhenErrorReason } from '@/when/errors/WhenError';
-import { whenInternal } from '@/when/internal';
+import { WhenErrorReason } from '@/conditions/when/errors/WhenError';
+import { whenInternal } from '@/conditions/when/internal';
 import { expect, test } from 'vitest';
 
 // Test the whenInternal function

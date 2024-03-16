@@ -1,1 +1,1 @@
-export * from "@/when";
+export * from "@/conditions/when";

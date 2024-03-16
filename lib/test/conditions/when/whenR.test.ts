@@ -1,4 +1,4 @@
-import { WhenError, WhenErrorReason, whenR } from '@/when';
+import { WhenError, WhenErrorReason, whenR } from '@/conditions/when';
 import { expect, test } from 'vitest';
 
 test('should return the correct value based on the first matching case', () => {

@@ -1,5 +1,5 @@
 import { ValueOrFunc, getValue } from "@/utils/valueOrFunc";
-import { WhenError, WhenErrorReason } from "@/when/errors/WhenError";
+import { WhenError, WhenErrorReason } from "@/conditions/when/errors/WhenError";
 
 /**
  * Executes a series of cases based on conditions and returns a value or void.

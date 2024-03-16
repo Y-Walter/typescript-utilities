@@ -1,4 +1,4 @@
-import { WhenErrorReason, when } from '@/when';
+import { WhenErrorReason, when } from '@/conditions/when';
 import { expect, test } from 'vitest';
 
 test('should call whenInternal with exclusive mode when mode is "exclusive"', () => {

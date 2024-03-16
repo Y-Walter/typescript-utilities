@@ -1,6 +1,6 @@
 import { ValueOrFunc} from "@/utils/valueOrFunc";
-import { whenInternal } from "@/when/internal";
-import { WhenError, WhenErrorReason } from "@/when/errors/WhenError";
+import { whenInternal } from "@/conditions/when/internal";
+import { WhenError, WhenErrorReason } from "@/conditions/when/errors/WhenError";
 
 /**
  * Executes the provided cases based on the specified mode.
