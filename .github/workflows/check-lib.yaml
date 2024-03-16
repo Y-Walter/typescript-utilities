@@ -1,0 +1,44 @@
+name: Check Lib
+
+on:
+  push:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: lib/package.json
+          cache: npm
+          cache-dependency-path: lib/package-lock.json
+      
+      - name: Install
+        run: npm ci --prefix lib
+      
+      - name: Lint
+        run: npm run lint --prefix lib
+
+  test:
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: lib/package.json
+          cache: npm
+          cache-dependency-path: lib/package-lock.json
+      
+      - name: Install
+        run: npm ci --prefix lib
+      
+      - name: Test
+        run: npm run test --prefix lib
