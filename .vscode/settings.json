@@ -7,5 +7,9 @@
   },
   "editor.formatOnSave": true,
   "prettier.enable": true,
-  "prettier.configPath": ".prettierrc"
+  "prettier.configPath": ".prettierrc",
+  "cSpell.words": [
+    "Nabeatsu",
+    "Sekai"
+  ]
 }

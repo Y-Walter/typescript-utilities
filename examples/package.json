@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "@y-walter/typescript-utils-examples",
+  "description": "Example of @y-walter/typescript-utils",
+  "author": "Y-Walter",
+  "license": "MIT",
+  "main": "index.ts",
+  "dependencies": {
+    "@y-walter/typescript-utilities": "file:../lib"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "volta": {
+    "extends": "../lib/package.json"
+  }
+}
