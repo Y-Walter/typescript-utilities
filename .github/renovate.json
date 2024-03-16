@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "reviewers": [
+    "Y-Walter"
+  ],
+  "extends": [
+    "config:js-app",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "baseBranches": ["develop"],
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint"
+    }
+  ],
+  "schedule": [
+    "every 1 hour after 00:00 and before 23:59 every day"
+  ],
+  "automergeSchedule": [
+    "every 1 hour after 00:00 and before 23:59 every day"
+  ]
+}
