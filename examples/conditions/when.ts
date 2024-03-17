@@ -1,6 +1,7 @@
 import { when, whenR } from "@y-walter/typescript-utilities";
 
 const main = () => {
+  console.log("conditions/when: Start the main function.");
   // Ask Nabeatsu for the numbers from 1 to 40.
   console.log("Ask Nabeatsu for the numbers from 1 to 40.");
   for (let i = 1; i <= 40; i++) {
@@ -9,14 +10,14 @@ const main = () => {
   console.log("---");
 
   // FizzBuzz for the numbers from 1 to 20.
-  console.log("FizzBuzz for the numbers from 1 to 20.");
+  console.log("conditions/when: FizzBuzz for the numbers from 1 to 20.");
   for (let i = 1; i <= 20; i++) {
     console.log(fizzBuzz(i));
   }
   console.log("---");
 
   // Get the zodiac sign from the year.
-  console.log("Get the zodiac sign from the year.");
+  console.log("conditions/when: Get the zodiac sign from the year.");
   console.log(getEtoFromYear(2024));
   console.log("---");
 };
@@ -87,7 +88,7 @@ function fizzBuzz(num: number): string {
  * getEtoFromYear(2023); // "Rabbit"
  */
 function getEtoFromYear(year: number): string {
-  const adjustedYear = year + 9;
+  const adjustedYear = year + 8;
   return whenR(
     [() => adjustedYear % 12 === 0, "Mouse"],
     [() => adjustedYear % 12 === 1, "Cow"],

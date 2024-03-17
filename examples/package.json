@@ -14,5 +14,9 @@
   },
   "volta": {
     "extends": "../lib/package.json"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "install:lib": "npm ci --prefix ../lib && npm run build --prefix ../lib && npm install ../lib"
   }
 }
