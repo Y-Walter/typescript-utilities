@@ -4,5 +4,5 @@ plugins:
 - jekyll-remote-theme
 
 title: typescript-utilities by Y-Walter
-description: @y-walter/typescript-utilities
+description: "@y-walter/typescript-utilities"
 
