@@ -17,3 +17,7 @@ This document focuses on how to get started and how to use the library.
 So, let's start using `@y-walter/typescript-utils`!
 
 Translated with DeepL.com (free version)
+
+### Index
+- [Get Started](./getStarted/index.md)
+- [How to Use](./howTo/index.md)
