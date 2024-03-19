@@ -1,4 +1,6 @@
 ## try-catch
+[Back to Home](../index.md) |  [Back to List](./index.md)
+
 ### tryCatchR
 <!-- 
 JavaScriptに標準で使用できるtry-catchでは、try内部の戻り値を定義することはできません。このため、必然的にtry-catchの外部にミュータブルな変数を宣言することになり、イミュータブルに設定することができなくなります。
@@ -52,3 +54,6 @@ const apiResult2 = tryCatchR(() => {
   }
 });
 ```
+
+---
+[Back to Home](../index.md) |  [Back to List](./index.md)
