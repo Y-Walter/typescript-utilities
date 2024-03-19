@@ -1,8 +1,8 @@
 ## try-catch
-[Back to Home](../index.md) |  [Back to List](./index.md)
+Back to [Introduction](../index.md) |  [How to Use](./index.md)
 
 ### tryCatchR
-<!-- 
+<!-- japanese
 JavaScriptに標準で使用できるtry-catchでは、try内部の戻り値を定義することはできません。このため、必然的にtry-catchの外部にミュータブルな変数を宣言することになり、イミュータブルに設定することができなくなります。
 `tryCatchR` は、イミュータブルに扱えるように戻り値を返す関数としてtry-catchを内包する関数として機能します。
 -->
@@ -56,4 +56,4 @@ const apiResult2 = tryCatchR(() => {
 ```
 
 ---
-[Back to Home](../index.md) |  [Back to List](./index.md)
+Back to [Introduction](../index.md) |  [How to Use](./index.md)

@@ -1,5 +1,3 @@
-# @y-walter/typescript-utils
-
 ## Introduction
 <!-- japanese
 `@y-walter/typescript-utils`は、TypeScriptで開発を行う際に便利に活用できるプラクティスをライブラリの形式でまとめたものである。
