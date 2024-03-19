@@ -1,3 +1,5 @@
+# @y-walter/typescript-utils
+
 ## Introduction
 <!-- japanese
 `@y-walter/typescript-utils`は、TypeScriptで開発を行う際に便利に活用できるプラクティスをライブラリの形式でまとめたものである。
@@ -8,6 +10,7 @@
 
 では、`@y-walter/typescript-utils` を使い始めてみよう
 -->
+
 The `@y-walter/typescript-utils` is a collection of practices in library format that can be useful when developing in TypeScript.
 The primary user of this library is Y-Walter himself, who will maintain and make additional modifications at his will.
 
