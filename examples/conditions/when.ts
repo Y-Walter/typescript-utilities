@@ -59,7 +59,9 @@ function fizzBuzz(num: number): string {
   when("inclusive",
     [() => num % 3 === 0, () => result += "Fizz"],
     [() => num % 5 === 0, () => result += "Buzz"],
-    ["else", () => result = num.toString()]
+    ["else", () => {
+      if(result === "") result = num.toString()
+    }]
   );
   return result;
 };
