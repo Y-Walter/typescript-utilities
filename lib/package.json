@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/Y-Walter/typescript-utilities#readme",
   "devDependencies": {
-    "@eslint/eslintrc": "3.3.5",
+    "@eslint/eslintrc": "3.3.6",
     "@eslint/js": "8.57.1",
     "@types/eslint": "8.56.12",
     "@types/node": "20.19.43",
